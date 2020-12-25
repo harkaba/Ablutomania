@@ -1,3 +1,3 @@
 <resources>
-    <string name="hello_world">Hello \n clean \n World !</string>
+    <string name="hello_world">Hello \nDirty \nWorld !</string>
 </resources>

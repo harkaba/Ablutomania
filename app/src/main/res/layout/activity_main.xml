@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/dark_grey"
     android:padding="@dimen/box_inset_layout_padding"
+    android:translationX="0dp"
+    android:translationY="0dp"
     tools:context=".MainActivity"
     tools:deviceIds="wear">
 
@@ -13,15 +15,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/inner_frame_layout_padding"
-        android:translationX="40dp"
-        android:translationY="40dp"
-        app:boxedEdges="all">
+        android:translationX="0dp"
+        android:translationY="0dp"
+        app:boxedEdges="all"
+        tools:ignore="MissingPrefix">
 
         <TextView
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="90dp"
-            android:text="@string/hello_world" />
+            android:text="@string/hello_world"
+            android:textSize="24sp" />
 
     </FrameLayout>
 
